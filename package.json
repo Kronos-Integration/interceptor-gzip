@@ -1,0 +1,78 @@
+{
+  "name": "kronos-interceptor-gzip",
+  "version": "0.0.0-semantic-release",
+  "description": "compress / decompress streams",
+  "main": "dist/decode-json.js",
+  "module": "src/decode-json.js",
+  "keywords": ["kronos-interceptor"],
+  "scripts": {
+    "cover": "nyc --temp-directory build/nyc ava",
+    "test": "ava",
+    "semantic-release": "semantic-release",
+    "docs":
+      "jsdoc2md --configure doc/jsdoc.json -l off -t doc/README.hbs -f src/*.js >README.md",
+    "pretest": "rollup -c tests/rollup.config.js",
+    "posttest": "npm run prepare && markdown-doctest",
+    "precover": "rollup -c tests/rollup.config.js",
+    "prepare": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/Kronos-Integration/kronos-interceptor-gzip.git"
+  },
+  "bugs": {
+    "url":
+      "https://github.com/Kronos-Integration/kronos-interceptor-gzip/issues"
+  },
+  "homepage":
+    "https://github.com/Kronos-Integration/kronos-interceptor-gzip#readme",
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "babel-preset-env": "^1.6.1",
+    "jsdoc-babel": "^0.3.0",
+    "jsdoc-to-markdown": "^3.0.2",
+    "kronos-test-interceptor": "^3.1.0",
+    "markdown-doctest": "^0.9.1",
+    "nyc": "^11.4.0",
+    "rollup": "^0.52.1",
+    "rollup-plugin-multi-entry": "^2.0.2",
+    "semantic-release": "^11.0.2",
+    "xo": "^0.19.0"
+  },
+  "contributors": [
+    {
+      "name": "Torsten Link",
+      "email": "torstenlink@gmx.de"
+    },
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": ">=8.9.3"
+  },
+  "dependencies": {
+    "kronos-interceptor": "^2.5.2"
+  },
+  "nyc": {
+    "include": ["build/*-test.js", "src/**/*.js"],
+    "reporter": ["lcov"],
+    "report-dir": "./build/coverage"
+  },
+  "template": {
+    "repository": {
+      "url": "https://github.com/arlac77/npm-package-template.git"
+    }
+  },
+  "xo": {
+    "space": true
+  },
+  "ava": {
+    "files": ["build/*-test.js"],
+    "presets": ["env"],
+    "require": ["babel-register"]
+  }
+}
