@@ -1,5 +1,5 @@
 {
-  "name": "kronos-interceptor-gzip",
+  "name": "@kronos-integration/interceptor-gzip",
   "version": "0.0.0-semantic-release",
   "description": "compress / decompress streams",
   "main": "dist/decode-json.js",
