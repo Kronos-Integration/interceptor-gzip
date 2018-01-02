@@ -2,9 +2,12 @@ import { Interceptor } from 'kronos-interceptor';
 const zlib = require('zlib');
 
 /**
- *
+ * Decompress requests with gunzip
  */
 export class GunzipInterceptor extends Interceptor {
+  /**
+   * @return {string} 'gunzip'
+   */
   static get name() {
     return 'gunzip';
   }
@@ -15,9 +18,12 @@ export class GunzipInterceptor extends Interceptor {
 }
 
 /**
- *
+ * Compress requests with gzip
  */
 export class GzipInterceptor extends Interceptor {
+  /**
+   * @return {string} 'gzip'
+   */
   static get name() {
     return 'gzip';
   }
