@@ -47,12 +47,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kronos-Integration/@kronos-integration/interceptor-gzip.git"
+    "url": "git+https://github.com/Kronos-Integration/interceptor-gzip.git"
   },
   "bugs": {
-    "url": "https://github.com/Kronos-Integration/@kronos-integration/interceptor-gzip/issues"
+    "url": "https://github.com/Kronos-Integration/interceptor-gzip/issues"
   },
-  "homepage": "https://github.com/Kronos-Integration/@kronos-integration/interceptor-gzip#readme",
+  "homepage": "https://github.com/Kronos-Integration/interceptor-gzip#readme",
   "ava": {
     "files": [
       "build/*-test.js"
