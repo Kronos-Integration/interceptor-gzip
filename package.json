@@ -6,7 +6,7 @@
   },
   "main": "dist/gunzip.js",
   "module": "src/gunzip.js",
-  "description": "intercaptor to compress / decompress streams",
+  "description": "interceptor to compress / decompress streams",
   "keywords": ["kronos-interceptor"],
   "contributors": [
     {
