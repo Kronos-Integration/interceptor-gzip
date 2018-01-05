@@ -18,7 +18,7 @@
 
 # @kronos-integration/interceptor-gzip
 
-compress / decompress streams
+intercaptor to compress / decompress streams
 
 # API
 
