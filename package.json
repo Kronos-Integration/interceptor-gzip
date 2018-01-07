@@ -1,6 +1,9 @@
 {
   "name": "@kronos-integration/interceptor-gzip",
   "version": "0.0.0-semantic-release",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/gunzip.js",
   "module": "src/gunzip.js",
   "description": "compress / decompress streams",
