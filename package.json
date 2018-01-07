@@ -6,7 +6,7 @@
   },
   "main": "dist/gunzip.js",
   "module": "src/gunzip.js",
-  "description": "compress / decompress streams",
+  "description": "interceptor to compress / decompress streams",
   "keywords": ["kronos-interceptor"],
   "contributors": [
     {
@@ -23,7 +23,7 @@
     "cover": "nyc --temp-directory build/nyc ava",
     "test": "ava",
     "semantic-release": "semantic-release",
-    "docs": "documentation readme src/decode-json.js --section=API",
+    "docs": "documentation readme src/gunzip.js --section=API",
     "pretest": "rollup -c tests/rollup.config.js",
     "posttest": "npm run prepare && markdown-doctest",
     "precover": "rollup -c tests/rollup.config.js",
@@ -41,24 +41,19 @@
     "rollup": "^0.53.3",
     "rollup-plugin-multi-entry": "^2.0.2",
     "semantic-release": "^11.1.0",
-    "xo": "^0.19.0",
-    "documentation": "^5.3.5",
-    "rollup-plugin-babel": "^3.0.3"
+    "documentation": "^5.3.5"
   },
   "engines": {
-    "node": ">=8.9.3"
+    "node": ">=8.9.4"
   },
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/Kronos-Integration/@kronos-integration/interceptor-gzip.git"
+    "url": "git+https://github.com/Kronos-Integration/interceptor-gzip.git"
   },
   "bugs": {
-    "url":
-      "https://github.com/Kronos-Integration/@kronos-integration/interceptor-gzip/issues"
+    "url": "https://github.com/Kronos-Integration/interceptor-gzip/issues"
   },
-  "homepage":
-    "https://github.com/Kronos-Integration/@kronos-integration/interceptor-gzip#readme",
+  "homepage": "https://github.com/Kronos-Integration/interceptor-gzip#readme",
   "ava": {
     "files": ["build/*-test.js"],
     "presets": ["env"],
