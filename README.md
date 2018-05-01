@@ -3,7 +3,6 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/Kronos-Integration/interceptor-gzip)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Build Status](https://secure.travis-ci.org/Kronos-Integration/interceptor-gzip.png)](http://travis-ci.org/Kronos-Integration/interceptor-gzip)
-[![bithound](https://www.bithound.io/github/Kronos-Integration/interceptor-gzip/badges/score.svg)](https://www.bithound.io/github/Kronos-Integration/interceptor-gzip)
 [![codecov.io](http://codecov.io/github/Kronos-Integration/interceptor-gzip/coverage.svg?branch=master)](http://codecov.io/github/Kronos-Integration/interceptor-gzip?branch=master)
 [![Coverage Status](https://coveralls.io/repos/Kronos-Integration/interceptor-gzip/badge.svg)](https://coveralls.io/r/Kronos-Integration/interceptor-gzip)
 [![Known Vulnerabilities](https://snyk.io/test/github/Kronos-Integration/interceptor-gzip/badge.svg)](https://snyk.io/test/github/Kronos-Integration/interceptor-gzip)
