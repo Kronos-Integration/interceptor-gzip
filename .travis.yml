@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-  - 8.9.3
-  - 9
-sudo: false
+  - 10.1
+sudo: 'false'
 branches:
   only:
     - master
@@ -28,4 +27,4 @@ after_script:
   - cat ./build/coverage/lcov.info | coveralls
   - npm run docs
 after_success:
-  - npm run semantic-release
+  - npm run travis-deploy-once "npm run semantic-release"
