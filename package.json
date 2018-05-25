@@ -7,7 +7,9 @@
   "main": "dist/gunzip.js",
   "module": "src/gunzip.js",
   "description": "interceptor to compress / decompress streams",
-  "keywords": ["kronos-interceptor"],
+  "keywords": [
+    "kronos-interceptor"
+  ],
   "contributors": [
     {
       "name": "Torsten Link",
@@ -39,7 +41,7 @@
     "@kronos-integration/test-interceptor": "^1.0.0",
     "markdown-doctest": "^0.9.1",
     "nyc": "^11.8.0",
-    "rollup": "^0.59.2",
+    "rollup": "^0.59.3",
     "rollup-plugin-multi-entry": "^2.0.2",
     "semantic-release": "^15.5.0",
     "documentation": "^7.0.0",
@@ -57,13 +59,24 @@
   },
   "homepage": "https://github.com/Kronos-Integration/interceptor-gzip#readme",
   "ava": {
-    "files": ["build/*-test.js"],
-    "presets": ["env"],
-    "require": ["babel-register"]
+    "files": [
+      "build/*-test.js"
+    ],
+    "presets": [
+      "env"
+    ],
+    "require": [
+      "babel-register"
+    ]
   },
   "nyc": {
-    "include": ["build/*-test.js", "src/**/*.js"],
-    "reporter": ["lcov"],
+    "include": [
+      "build/*-test.js",
+      "src/**/*.js"
+    ],
+    "reporter": [
+      "lcov"
+    ],
     "report-dir": "./build/coverage"
   },
   "xo": {
