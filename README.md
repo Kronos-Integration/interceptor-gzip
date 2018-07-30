@@ -1,4 +1,3 @@
-
 [![npm](https://img.shields.io/npm/v/@kronos-integration/interceptor-gzip.svg)](https://www.npmjs.com/package/@kronos-integration/interceptor-gzip)
 [![Greenkeeper](https://badges.greenkeeper.io/Kronos-Integration/interceptor-gzip.svg)](https://greenkeeper.io/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/Kronos-Integration/interceptor-gzip)
@@ -15,6 +14,7 @@
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![downloads](http://img.shields.io/npm/dm/interceptor-gzip.svg?style=flat-square)](https://npmjs.org/package/interceptor-gzip)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 
 # @kronos-integration/interceptor-gzip
 
