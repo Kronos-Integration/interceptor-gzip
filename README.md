@@ -7,7 +7,6 @@
 [![Coverage Status](https://coveralls.io/repos/Kronos-Integration/interceptor-gzip/badge.svg)](https://coveralls.io/r/Kronos-Integration/interceptor-gzip)
 [![Known Vulnerabilities](https://snyk.io/test/github/Kronos-Integration/interceptor-gzip/badge.svg)](https://snyk.io/test/github/Kronos-Integration/interceptor-gzip)
 [![GitHub Issues](https://img.shields.io/github/issues/Kronos-Integration/interceptor-gzip.svg?style=flat-square)](https://github.com/Kronos-Integration/interceptor-gzip/issues)
-[![Stories in Ready](https://badge.waffle.io/Kronos-Integration/interceptor-gzip.svg?label=ready&title=Ready)](http://waffle.io/Kronos-Integration/interceptor-gzip)
 [![Dependency Status](https://david-dm.org/Kronos-Integration/interceptor-gzip.svg)](https://david-dm.org/Kronos-Integration/interceptor-gzip)
 [![devDependency Status](https://david-dm.org/Kronos-Integration/interceptor-gzip/dev-status.svg)](https://david-dm.org/Kronos-Integration/interceptor-gzip#info=devDependencies)
 [![docs](http://inch-ci.org/github/Kronos-Integration/interceptor-gzip.svg?branch=master)](http://inch-ci.org/github/Kronos-Integration/interceptor-gzip)
