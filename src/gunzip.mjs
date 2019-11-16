@@ -1,5 +1,5 @@
-import { Interceptor } from 'kronos-interceptor';
-const zlib = require('zlib');
+import { Interceptor } from '@kronos-integration/interceptor';
+import { createGunzip, createGzip } from 'zlib';
 
 /**
  * Decompress requests with gunzip
@@ -13,7 +13,7 @@ export class GunzipInterceptor extends Interceptor {
   }
 
   receive(request, args) {
-    return this.connected.receive(request.pipe(zlib.createGunzip()));
+    return this.connected.receive(request.pipe(createGunzip()));
   }
 }
 
@@ -29,11 +29,6 @@ export class GzipInterceptor extends Interceptor {
   }
 
   receive(request, args) {
-    return this.connected.receive(request.pipe(zlib.createGzip()));
+    return this.connected.receive(request.pipe(createGzip()));
   }
-}
-
-export function registerWithManager(manager) {
-  return manager.registerInterceptor(GunzipInterceptor);
-  return manager.registerInterceptor(GzipInterceptor);
 }
