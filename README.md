@@ -1,7 +1,7 @@
 [![Build Status](https://secure.travis-ci.org/Kronos-Integration/interceptor-gzip.png)](http://travis-ci.org/Kronos-Integration/interceptor-gzip)
 [![codecov.io](http://codecov.io/github/Kronos-Integration/interceptor-gzip/coverage.svg?branch=master)](http://codecov.io/github/Kronos-Integration/interceptor-gzip?branch=master)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![downloads](http://img.shields.io/npm/dm/interceptor-gzip.svg?style=flat-square)](https://npmjs.org/package/interceptor-gzip)
+[![downloads](http://img.shields.io/npm/dm/@kronos-integration/interceptor-gzip.svg?style=flat-square)](https://npmjs.org/package/@kronos-integration/interceptor-gzip)
 [![GitHub Issues](https://img.shields.io/github/issues/Kronos-Integration/interceptor-gzip.svg?style=flat-square)](https://github.com/Kronos-Integration/interceptor-gzip/issues)
 [![Greenkeeper](https://badges.greenkeeper.io/Kronos-Integration/interceptor-gzip.svg)](https://greenkeeper.io/)
 [![Known Vulnerabilities](https://snyk.io/test/github/Kronos-Integration/interceptor-gzip/badge.svg)](https://snyk.io/test/github/Kronos-Integration/interceptor-gzip)
