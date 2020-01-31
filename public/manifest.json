@@ -1,0 +1,10 @@
+{
+  "name": "@kronos-integration/interceptor-gzip",
+  "description": "interceptor to compress / decompress streams",
+  "icons": [
+    {
+      "src": "facicon.ico",
+      "sizes": "16x16"
+    }
+  ]
+}
