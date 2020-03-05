@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@kronos-integration/test-interceptor": "^7.0.2",
-    "ava": "^3.4.0",
+    "ava": "^3.5.0",
     "c8": "^7.1.0",
     "documentation": "^12.1.4",
     "semantic-release": "^17.0.4"
@@ -51,8 +51,9 @@
   },
   "homepage": "https://github.com/Kronos-Integration/interceptor-gzip#readme",
   "template": {
-    "repository": {
-      "url": "https://github.com/arlac77/npm-package-template-kronos-module.git"
-    }
+    "inheritFrom": [
+      "arlac77/template-kronos-module",
+      "arlac77/template-github"
+    ]
   }
 }
