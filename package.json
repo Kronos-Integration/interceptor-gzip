@@ -30,7 +30,7 @@
     "lint": "documentation lint src/gunzip.mjs"
   },
   "dependencies": {
-    "@kronos-integration/interceptor": "^8.1.5"
+    "@kronos-integration/interceptor": "^8.1.6"
   },
   "devDependencies": {
     "@kronos-integration/test-interceptor": "^7.0.3",
