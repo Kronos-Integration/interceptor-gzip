@@ -7,6 +7,9 @@
   "sideEffects": false,
   "type": "module",
   "main": "src/gunzip.mjs",
+  "exports": {
+    ".": "./src/gunzip.mjs"
+  },
   "description": "interceptor to compress / decompress streams",
   "keywords": [
     "kronos-interceptor"
