@@ -12,8 +12,8 @@ export class GunzipInterceptor extends Interceptor {
     return 'gunzip';
   }
 
-  receive(request, args) {
-    return this.connected.receive(request.pipe(createGunzip()));
+  receive(endpoint, next, request) {
+    return next(request.pipe(createGunzip())); 
   }
 }
 
@@ -28,7 +28,7 @@ export class GzipInterceptor extends Interceptor {
     return 'gzip';
   }
 
-  receive(request, args) {
-    return this.connected.receive(request.pipe(createGzip()));
+  receive(endpoint, next, request) {
+    return next(request.pipe(createGzip())); 
   }
 }
