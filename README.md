@@ -11,7 +11,6 @@
 [![codecov.io](http://codecov.io/github/Kronos-Integration/interceptor-gzip/coverage.svg?branch=master)](http://codecov.io/github/Kronos-Integration/interceptor-gzip?branch=master)
 [![Coverage Status](https://coveralls.io/repos/Kronos-Integration/interceptor-gzip/badge.svg)](https://coveralls.io/r/Kronos-Integration/interceptor-gzip)
 
-
 # @kronos-integration/interceptor-gzip
 
 interceptor to compress / decompress streams
