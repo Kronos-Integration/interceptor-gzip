@@ -1,34 +1,42 @@
-import { Interceptor } from '@kronos-integration/interceptor';
-import { createGunzip, createGzip } from 'zlib';
+import { StreamTransformInterceptor } from "@kronos-integration/interceptor-stream";
+import { createGunzip, createGzip } from "zlib";
 
 /**
  * Decompress requests with gunzip
  */
-export class GunzipInterceptor extends Interceptor {
+export class GunzipInterceptor extends StreamTransformInterceptor {
   /**
    * @return {string} 'gunzip'
    */
   static get name() {
-    return 'gunzip';
+    return "gunzip";
   }
 
-  receive(endpoint, next, request) {
-    return next(request.pipe(createGunzip())); 
+  createTransformer(endpoint) {
+    return createGunzip();
   }
+
+  /*receive(endpoint, next, request) {
+    return next(request.pipe(createGunzip()));
+  }*/
 }
 
 /**
  * Compress requests with gzip
  */
-export class GzipInterceptor extends Interceptor {
+export class GzipInterceptor extends StreamTransformInterceptor {
   /**
    * @return {string} 'gzip'
    */
   static get name() {
-    return 'gzip';
+    return "gzip";
   }
 
-  receive(endpoint, next, request) {
-    return next(request.pipe(createGzip())); 
+  createTransformer(endpoint) {
+    return createGzip();
   }
+
+/*  receive(endpoint, next, request) {
+    return next(request.pipe(createGzip()));
+  }*/
 }
