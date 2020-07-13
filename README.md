@@ -28,7 +28,7 @@ interceptor to compress / decompress streams
 
 ## GunzipInterceptor
 
-**Extends Interceptor**
+**Extends StreamTransformInterceptor**
 
 Decompress requests with gunzip
 
@@ -38,7 +38,7 @@ Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/G
 
 ## GzipInterceptor
 
-**Extends Interceptor**
+**Extends StreamTransformInterceptor**
 
 Compress requests with gzip
 
