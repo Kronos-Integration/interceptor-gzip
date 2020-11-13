@@ -17,4 +17,3 @@ test(
     t.deepEqual(result, JSON.stringify([1, 4, 9]));
   }
 );
-
