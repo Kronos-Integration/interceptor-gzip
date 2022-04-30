@@ -2,12 +2,12 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![minified size](https://badgen.net/bundlephobia/min/@kronos-integration/interceptor-gzip)](https://bundlephobia.com/result?p=@kronos-integration/interceptor-gzip)
 [![downloads](http://img.shields.io/npm/dm/@kronos-integration/interceptor-gzip.svg?style=flat-square)](https://npmjs.org/package/@kronos-integration/interceptor-gzip)
-[![GitHub Issues](https://img.shields.io/github/issues/Kronos-Integration/interceptor-gzip.svg?style=flat-square)](https://github.com/Kronos-Integration/interceptor-gzip/issues)
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FKronos-Integration%2Finterceptor-gzip%2Fbadge\&style=flat)](https://actions-badge.atrox.dev/Kronos-Integration/interceptor-gzip/goto)
+[![GitHub Issues](https://img.shields.io/github/issues/interceptor-gzip/interceptor-gzip.svg?style=flat-square)](https://github.com/interceptor-gzip/interceptor-gzip/issues)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Finterceptor-gzip%2Finterceptor-gzip%2Fbadge\&style=flat)](https://actions-badge.atrox.dev/interceptor-gzip/interceptor-gzip/goto)
 [![Styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Known Vulnerabilities](https://snyk.io/test/github/Kronos-Integration/interceptor-gzip/badge.svg)](https://snyk.io/test/github/Kronos-Integration/interceptor-gzip)
-[![Coverage Status](https://coveralls.io/repos/Kronos-Integration/interceptor-gzip/badge.svg)](https://coveralls.io/github/Kronos-Integration/interceptor-gzip)
+[![Known Vulnerabilities](https://snyk.io/test/github/interceptor-gzip/interceptor-gzip/badge.svg)](https://snyk.io/test/github/interceptor-gzip/interceptor-gzip)
+[![Coverage Status](https://coveralls.io/repos/interceptor-gzip/interceptor-gzip/badge.svg)](https://coveralls.io/github/interceptor-gzip/interceptor-gzip)
 
 # @kronos-integration/interceptor-gzip
 
