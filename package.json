@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kronos-Integration/interceptor-gzip.git"
+    "url": "https://github.com/Kronos-Integration/interceptor-gzip"
   },
   "bugs": {
     "url": "https://github.com/Kronos-Integration/interceptor-gzip/issues"
